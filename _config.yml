@@ -4,7 +4,7 @@ title: Freelance Online Solutions for Artists
 locale: en_US
 description: Freelance Online Solutions.
 logo: site-logo.png
-url: //freelance.adriandiaz.ca/
+url: //freelance.adriandiaz.ca
 
 # Jekyll configuration
 
@@ -35,22 +35,22 @@ comments: true
 owner:
   name: Adrian Diaz
   avatar: michael-rose-photo.jpg
-  email: michael@mademistakes.com
+  email: web.art@adriandiaz.ca
   disqus-shortname: sosimpletheme
-  twitter: mmistakes
-  facebook: michaelrose
-  github: mmistakes
+  twitter: onzoArt
+  facebook: 
+  github: adriandgr
   stackexchange:
   linkedin:
-  instagram: mmistakes
+  instagram: onzo.art
   flickr:
-  tumblr: mademistakes
+  tumblr: 
   pinterest:
   weibo:
   google:
     plus: 113157541316799371773
     analytics: UA-67757719-1
-    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 7855747535
-  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
