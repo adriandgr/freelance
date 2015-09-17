@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: So Simple Theme
+title: Freelance Online Solutions for Artists
 locale: en_US
-description: A simple and clean responsive Jekyll theme for words and photos.
+description: Freelance Online Solutions.
 logo: site-logo.png
-url: //mmistakes.github.io/so-simple-theme
+url: //freelance.adriandiaz.ca/
 
 # Jekyll configuration
 
@@ -33,7 +33,7 @@ comments: true
 
 # Site owner
 owner:
-  name: Michael Rose
+  name: Adrian Diaz
   avatar: michael-rose-photo.jpg
   email: michael@mademistakes.com
   disqus-shortname: sosimpletheme
@@ -48,8 +48,8 @@ owner:
   pinterest:
   weibo:
   google:
-    plus: MichaelRoseDesign
-    analytics: UA-2011187-2
+    plus: 113157541316799371773
+    analytics: UA-67757719-1
     verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
     ad-client: ca-pub-7328585512091257
     ad-slot: 7855747535
