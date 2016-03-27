@@ -4,7 +4,7 @@ title: DADA
 locale: en_US
 description: Freelance Online Solutions for Artists.
 logo: site-logo.png
-url: //dada.adriandiaz.ca
+url: //dada.adriandiaz.ca #//dada.adriandiaz.ca http://127.0.0.1:4000
 
 # Jekyll configuration
 
