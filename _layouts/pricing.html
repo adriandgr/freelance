@@ -19,21 +19,130 @@
         <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
       </header>
       <div class="entry-content">
-        
+        {{ content }}
       </div><!-- /.entry-content -->
+
     </div><!-- /.entry-wrapper -->
+    <div class="cd-pricing-container cd-full-width cd-secondary-theme">
+	<ul class="cd-pricing-list">
+		<li>
+			<header class="cd-pricing-header">
+				<h2>Credits</h2>
+
+				<div class="cd-price">
+					<span class="cd-currency">$</span>
+					<span class="cd-value">45</span>
+				</div>
+			</header> <!-- .cd-pricing-header -->
+
+			<div class="cd-pricing-body">
+				<ul class="cd-pricing-features">
+					<li><em>256MB</em> Memory</li>
+					<li><em>1</em> User</li>
+					<li><em>1</em> Website</li>
+					<li><em>1</em> Domain</li>
+					<li><em>Unlimited</em> Bandwidth</li>
+					<li><em>24/7</em> Support</li>
+				</ul>
+			</div> <!-- .cd-pricing-body -->
+
+			<footer class="cd-pricing-footer">
+				<a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+			</footer> <!-- .cd-pricing-footer -->
+		</li>
+		<li class="cd-popular">
+			<header class="cd-pricing-header">
+				<h2>Monthly</h2>
+
+				<div class="cd-price">
+					<span class="cd-currency">$</span>
+					<span class="cd-value">80</span>
+					<span class="cd-duration">mo</span>
+				</div>
+			</header> <!-- .cd-pricing-header -->
+
+			<div class="cd-pricing-body">
+				<ul class="cd-pricing-features">
+					<li><em>512MB</em> Memory</li>
+					<li><em>3</em> Users</li>
+					<li><em>5</em> Websites</li>
+					<li><em>7</em> Domains</li>
+					<li><em>Unlimited</em> Bandwidth</li>
+					<li><em>24/7</em> Support</li>
+				</ul>
+			</div> <!-- .cd-pricing-body -->
+
+			<footer class="cd-pricing-footer">
+				<a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+			</footer> <!-- .cd-pricing-footer -->
+		</li>
+		<li>
+			<header class="cd-pricing-header">
+				<h2>Yearly</h2>
+
+				<div class="cd-price">
+					<span class="cd-currency">$</span>
+					<span class="cd-value">800</span>
+					<span class="cd-duration">yr</span>
+				</div>
+			</header> <!-- .cd-pricing-header -->
+
+			<div class="cd-pricing-body">
+				<ul class="cd-pricing-features">
+					<li><em>1024MB</em> Memory</li>
+					<li><em>5</em> Users</li>
+					<li><em>10</em> Websites</li>
+					<li><em>10</em> Domains</li>
+					<li><em>Unlimited</em> Bandwidth</li>
+					<li><em>24/7</em> Support</li>
+				</ul>
+			</div> <!-- .cd-pricing-body -->
+
+			<footer class="cd-pricing-footer">
+				<a class="cd-select" href="http://codyhouse.co/?p=429">Select</a>
+			</footer>  <!-- .cd-pricing-footer -->
+		</li>
+	</ul> <!-- .cd-pricing-list -->
+	
+</div> <!-- .cd-pricing-container -->
   </article>
 </div><!-- /#main -->
-{{ content }}
+
+
 <div class="footer-wrapper">
   <footer role="contentinfo" class="entry-wrapper">
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}
-<!-- <script src="js/jquery-2.1.1.js"></script>-->
+<script type="text/javascript">
+  var BASE_URL = '{{ site.url }}';
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 <script src="{{ site.url }}/assets/js/main.js"></script> <!-- Resource jQuery -->
+
+{% if site.owner.google.analytics %}
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl =
+ 'https://www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+{% endif %}
+
+
 
 </body>
 </html>
